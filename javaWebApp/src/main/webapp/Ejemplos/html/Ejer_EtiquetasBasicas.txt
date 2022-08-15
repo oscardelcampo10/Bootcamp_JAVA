@@ -1,0 +1,30 @@
+
+->Un <a> enlace a una pagina externa.
+->un <a> enlace interno al proyecto web.Enlace <a> que empieza por # y busca un ID.
+->un <a> tel, email -> a:mailto.
+
+-> <button>(onclick) que llame a una funcion y haga algo.
+
+-> <caption> titulo de una tabla.
+
+-> <dd> <del>
+
+-> <ol>ordered.
+-> <ul>unordered.
+-> <il>
+-> <dl> definition list.
+
+-> <div> contenedor en bloque que ocuprara por defecto todo el ancho de la pantalla.
+-> <span> contenedor que ocupara unicamente lo que ocupe su contenido.
+
+-> <imframe> para insertat para un video.
+
+-> <img src"" alt""><img/>
+-> <favicon>
+-> <meter>
+-> <progress>
+-> <noscript>
+-> <p> x 5
+-> <pre> para que mantenga el preformatedo. escribes tal cual lo hayas escrito tu , con saltos de linea y tabulaciones.
+	sirve para escribir codigo como ejemplo.
+->line through tachado

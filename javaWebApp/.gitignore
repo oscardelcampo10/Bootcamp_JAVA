@@ -1,0 +1,5 @@
+#usamos este fichero para ignorar todos los archivos que no queremos que sincronice git
+/target
+/.project
+/.settings
+/.classpath

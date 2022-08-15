@@ -1,0 +1,148 @@
+/*
+hoja de estilos 
+
+esto es un comentario de bloque.
+@author : Mikel bua 
+@version: 1.0
+@tags: css, basic,etc..
+@licencia: mit
+*/
+* {
+	/*Esto es un reseteo para eliminar todos los margin y padding por defecto : user-agent*/
+	margin: 0;
+	padding: 0;
+}
+
+@
+keyframes example {
+	from {background-color: red;
+}
+
+to {
+	background-color: yellow;
+	border-radius: 128px;
+}
+
+}
+.enlaces a {
+	color: beige;
+	text-decoration-line: none;
+	text-decoration: underline;
+}
+
+.enlaces a:hover {
+	text-decoration-line: none;
+	color: beige;
+}
+
+.enlaces img {
+	width: 50px;
+	height: 50px;
+	border-left: solid 1px;
+}
+
+.enlaces {
+	padding: 5px;
+	background-image: url("/helloweb/images/menuEnlacesfondo.jpg");
+	color: beige;
+}
+
+body {
+	background-image: url("/helloweb/images/menuEnlacesfondo.jpg");
+}
+
+.animation {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0099CC;
+	font-size: 3em;
+	text-align: center;
+}
+
+.parallax h1 {
+	padding-top: 2em;
+}
+
+.parallax h2 {
+	padding-top: 0.5em;
+	font-size: 2em;
+}
+
+button {
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+body {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	/*background-image: url(/images/office.jpg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.parallax {
+	/* The image used */
+	background-image: url("/helloweb/images/fondoParadax.jpg");
+	/* Set a specific height */
+	min-height: 400px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.texto {
+	height: 1000px;
+	background-color: rgb(190, 111, 111);
+	font-size: 36px;
+}
+
+table {
+	width: 50%;
+	margin: auto;
+}
+
+th, td {
+	border: 1px solid #000; /* shorthand (abrebiatura) de*/
+	/*
+      border-width: 1px;
+      border: solid;
+      border-color:#000 ;
+      */
+	padding: 5px;
+	text-align: center;
+}
+
+tr.d0 td {
+	background-color: #CC9999;
+	color: black;
+}
+
+tr.d1 td {
+	background-color: #9999CC;
+	color: black;
+}
+
+th {
+	background-color: rgb(91, 93, 95);
+}
+
+td:hover {
+	background-color: rgb(11, 167, 11);
+}
+
+a {
+	color: black;
+}
+
