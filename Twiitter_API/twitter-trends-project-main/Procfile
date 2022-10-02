@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar twitter-trends-project/target/dependency/webapp-runner.jar --port $PORT twitter-trends-project/target/*.war
